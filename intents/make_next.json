@@ -1,0 +1,141 @@
+{
+  "id": "10f90859-6b01-42b7-8a2c-0e4deb0abc85",
+  "name": "make_next",
+  "auto": true,
+  "contexts": [
+    "playing"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "next",
+      "affectedContexts": [
+        {
+          "name": "playing",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c68d21ef-bdce-4e4d-9d33-ce18cf2cbd41",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "id",
+          "value": "#playing.id",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526938737,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_MEDIA_STATUS"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "c5eb08e5-33c9-43eb-844a-d6cda4d8c908",
+      "data": [
+        {
+          "text": "avanti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    },
+    {
+      "id": "88fff8a4-0f67-40cc-86bd-a3f61fab079e",
+      "data": [
+        {
+          "text": "prossima"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    },
+    {
+      "id": "e880ff76-ddaa-490c-b255-657eef5b376f",
+      "data": [
+        {
+          "text": "cambia canzone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    },
+    {
+      "id": "bd7e0f7c-4a9b-4dda-8427-a09d240fd13b",
+      "data": [
+        {
+          "text": "canzone successiva"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    },
+    {
+      "id": "98ac87c4-b6de-49e8-848c-956bc212ce55",
+      "data": [
+        {
+          "text": "passa alla prossima"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    },
+    {
+      "id": "0f79ef05-2c1e-4f16-9488-70320f08e889",
+      "data": [
+        {
+          "text": "prossima canzone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    },
+    {
+      "id": "f672828c-ca47-4ece-bfdd-1cc2c3f298a2",
+      "data": [
+        {
+          "text": "vai avanti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526938737,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

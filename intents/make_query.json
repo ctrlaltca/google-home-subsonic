@@ -1,0 +1,141 @@
+{
+  "id": "e4e6924b-4319-4f7b-a994-afb118bdc86f",
+  "name": "make_query",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "search",
+      "affectedContexts": [
+        {
+          "name": "make_query-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "233260f9-3ca0-4cfd-819d-7fef098377f3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "song",
+          "value": "$song",
+          "prompts": [
+            "Dimmi il nome della canzone"
+          ],
+          "isList": false
+        },
+        {
+          "id": "a0014798-b63e-4b1d-a1b7-046bcc6fd820",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "artist",
+          "value": "$artist",
+          "prompts": [
+            "Dimmi il nome dell'artista"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526748124,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "aefd6827-9a6c-4071-a4b8-307f0c964261",
+      "data": [
+        {
+          "text": "Fammi sentire "
+        },
+        {
+          "text": "canzone",
+          "alias": "song",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " di "
+        },
+        {
+          "text": "artista",
+          "alias": "artist",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526747883,
+      "isAuto": false
+    },
+    {
+      "id": "d1708473-7d67-4d50-a461-7f73c11adb83",
+      "data": [
+        {
+          "text": "Metti "
+        },
+        {
+          "text": "canzone",
+          "alias": "song",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " di "
+        },
+        {
+          "text": "artista",
+          "alias": "artist",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526747883,
+      "isAuto": false
+    },
+    {
+      "id": "11f56189-9afa-4d64-9f83-de640928ea2c",
+      "data": [
+        {
+          "text": "Riproduci "
+        },
+        {
+          "text": "canzone",
+          "alias": "song",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " di "
+        },
+        {
+          "text": "artista",
+          "alias": "artist",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526747883,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
