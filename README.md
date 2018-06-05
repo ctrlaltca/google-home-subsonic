@@ -18,10 +18,14 @@ Now, time to configure the actions on Google:
 
 1. Log into your Google account and go to the Actions Console: https://console.actions.google.com/
 2. Add a project, name it "Subsonic" and confgiure the basic settings. Since google won't accept the single word "Subsonic" as an invocation name, i'm using "Sub sonic" as a workaround
+![Invocation example](https://github.com/ctrlaltca/google-home-subsonic/raw/master/doc/invocation.png)
 3. Now move to the "Actions" section, add an action, choose "custom intent" and press "BUILD"
+![Add action](https://github.com/ctrlaltca/google-home-subsonic/raw/master/doc/addaction.png)
 4. You should be taken to the Dialogflow console.
 5. In the "Intents" section, upload the prebuilt intents from the "intents" folder of the project
+![Intents](https://github.com/ctrlaltca/google-home-subsonic/raw/master/doc/intents.png)
 6. In the "Fulfillment" section, enable the webhook and enter the full url to index.php.
+![Fulfillment](https://github.com/ctrlaltca/google-home-subsonic/raw/master/doc/fulfillment.png)
 
 Since my actions are currently written in Italian, you may want to translate them to the language you are using on your Google home.
 You should be ready to test them in the simulator now.
